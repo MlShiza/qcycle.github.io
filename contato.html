@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagens/qcycle.png">
+    <title>Q-Cycle</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <img id="logo" 
+        src="imagens/qcycle.png"
+        height="auto"
+        width="100">
+
+        <br><h1>Q-Cycle</h1>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="equipe.html">Quem somos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <h1 id="tituloform">Insira seus dados e entraremos em contato!</h1>
+
+    <div class="formulario">
+
+        <form>
+
+            <label for="formnome">Nome:</label>
+            <input type="text" id="formnome" placeholder="Seu nome" required>
+
+            <label for="formemail">E-Mail:</label>
+            <input type="email" id="formemail" placeholder="email@site.com" required>
+
+            <br>
+            <br>
+
+            <label for="estado">Estado:</label>
+            <select>
+                <option value="Goiás">Goiás</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+                <option value="Tocantins">Tocantins</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Mato Grosso">Mato Grosso</option>
+            </select>
+
+            <label for="Cidade">Cidade:</label>
+            <input type="text" id="formcidade" placeholder="Sua cidade">
+
+            <br>
+
+            <p>Se seu estado não está na lista, ainda não operamos nele.</p>
+
+            <br>
+
+
+
+
+            <input type="reset">
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+    <footer>
+        <br>
+        <small id="email"><a href="mailto:qcycle@emailfalso.com">Entre em contato por e-mail</a></small>
+        <p>Ceilândia - DF, 2024</p>
+    </footer>
+
+</body>
+
+</html>
